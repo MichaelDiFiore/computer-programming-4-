@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html>
+     <head>
+      <title>My table </title>
+     <head>
+      <body>
+      	  <hl> this is my school scedual</h1><br />
+		  
+		  <table>
+	     <table border="1">
+		 <thead>
+	      <tr>
+		  </tr>
+		  </thead>
+		 <thead>
+		 <tr>
+		   <th>8:20-9:20 
+		   period 1</th>
+		   <th>RelEth jESUS 254</th>
+		   <th>SciTech mr.Tyson 335</th>
+		   <th>French mr.Baguette 350</th>
+		 </tr>
+	     </thead>
+	  </table>
