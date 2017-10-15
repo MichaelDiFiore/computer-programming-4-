@@ -6,19 +6,73 @@
       <body>
       	  <hl> this is my school scedual</h1><br />
 		  
-		  <table>
-	     <table border="1">
-		 <thead>
-	      <tr>
-		  </tr>
+
+	    <table border="1">
+		
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Day 1</th>
+		    <th>Day 2</th>
+		    <th>Day 3</th>
+		    <th>Day 4</th>
+		    <th>Day 5</th>
+		    <th>Day 6</th>
+		    <th>Day 7</th>
+		    <th>Day 8</th>
+		   </tr>
 		  </thead>
-		 <thead>
-		 <tr>
-		   <th>8:20-9:20 
-		   period 1</th>
-		   <th>RelEth jESUS 254</th>
-		   <th>SciTech mr.Tyson 335</th>
-		   <th>French mr.Baguette 350</th>
-		 </tr>
-	     </thead>
+		  <thead>
+		   <tr>
+		    <th>8:20-9:20 period 1</th>
+		    <th>Relegon Jesus 253</th>
+		    <th>Science mr.Einstein 353</th>
+		    <th>French mr.Baguette 350</th>
+		    <th>english mr.Shakespeare 152</th>
+		    <th>history mr.Cartier 155</th>
+		    <th>computer programing mr.Gates 351</th>
+		    <th>history mr.Cartier 155</th>
+		    <th>math mr.Einstein 219</th>
+		   </tr>
+	      </thead>
+		  <thead>
+		   <tr> 
+		    <th>9:25-10:25 period 2</th>
+			<th>science mr. Einstein 251 </th>
+			<th>theater arts mr.Griffen 333</th>
+			<th>math mr.Einstein 132 </th>
+			<th>computer programing mr.Gates</th>
+			<th>theater arts mr.Griffen 333</th>
+			<th>math mr.Einstein 250</th>
+			<th>religon Jesus 130 </th>
+			<th>french mr.Baguette 350</th>
+		   </tr>
+		  </thead>
+		  <thead>
+		   <tr>
+		    <th> 10:40- 11:40 Period 3</th>
+		    <th>french mr.Baguette 350 </th>
+		    <th>engish mr.Shakespeate 119 </th>
+		    <th>religon Jesus 219</th>
+		    <th>science mr.Einstein 225</th>
+		    <th>engish mr.Shakespeate 154</th>
+			<th>engish mr.Shakespeate 235</th>
+			<th>french mr.Baguette 333</th>
+			<th>scienc mr.Einstein 142</th>
+		   </tr>
+		  </thead>
+		  <thead>
+		   <tr>
+		    <th>12:30-1:00 period 4 </th>
+			<th>computer programing mr.Gates</th> 
+			<th>speech mr.Yiannopoulos 232</th>
+			<th>home room mr.Freeman 136 </th>
+			<th>history mr.mr.Cartier 155</th>
+			<th>speech mr.Yiannopoulos 232</th>
+			
+			
+		   
+			
+		  
 	  </table>
+		    </html>
