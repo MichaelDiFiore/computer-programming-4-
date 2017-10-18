@@ -21,6 +21,7 @@
 		    <th>Day 6</th>
 		    <th>Day 7</th>
 		    <th>Day 8</th>
+			<th></th>
 			<th>Day A1</th>
 			<th>Day A3 </th>
 			<th>Day A6</th>
@@ -39,6 +40,7 @@
 		    <th>history Mr.Cartier 155</th>
 		    <th>math Mr.Einstein 219</th>
 			<th></th>
+			<th></th>
 			<th>French Mr.Baguette 150</th>
 			<th>religon Jesus 354</th>
 		   </tr>
@@ -55,6 +57,7 @@
 			<th>math Mr.Einstein 250</th>
 			<th>religon Jesus 130 </th>
 			<th>french Mr.Baguette 350</th>
+			<th></th>
 			<th>computer programing Mr.Gates 351</th>
 			<th>computer programing Mr.Gates 351</th>
 			<th>computer programing Mr.Gates 351</th>
@@ -72,6 +75,7 @@
 			<th>engish Mr.Shakespeate 235</th>
 			<th>french Mr.Baguette 333</th>
 			<th>scienc Mr.Einstein 142</th>
+			<th></th>
 			<th>french Mr.Baguette 350 </th>
 			<th></th>
 			<th>french Mr.Baguette 150 </th>
@@ -89,6 +93,7 @@
 			<th>theater arts Mr.Griffen 333</th>
 			<th>Maclean Center Gest Speeker</th>
 			<th>histiory Mr.Cartier 155</th>
+			
 			<th></th>
 			<th></th>
 			<th></th>
@@ -106,6 +111,7 @@
 			<th>theater arts Mr.Griffen 333</th>
 			<th>engish Mr.Shakespeate 224 </th>
 			<th>GYM Mr.Schwarzenegger </th>
+			<th></th>
 			<th>scienc Mr.Einstein 255</th>
 			<th>scienc Mr.Einstein 352</th>
 			<th>scienc Mr.Einstein 332</th>
@@ -124,7 +130,11 @@
 			<th>history Mr.Cartier 350</th>
 			<th>math Mr.Einstein 253</th>
 			<th>theater arts Mr.Griffen 333</th>
+			<th></th>
 			<th>religon Jesus 219</th>
 			<th>religon Jesus 219</th>
 			<th></th>
 		   </tr>
+		  </thead>
+ </table>
+</html>
