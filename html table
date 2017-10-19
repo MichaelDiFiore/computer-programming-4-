@@ -1,20 +1,21 @@
 <!DOCTYPE html> 
 <html>
      <head>
-      <title>My table </title>
-     <head>
+       <link href="css notes .css" type="text/css" rel="stylesheet">
+	  <title>My table </title>
+     </head>
       <body>
-      	  <h3> this is my school scedual</h3><br />
+      	  <h3> this is my school scedual</h3>
+		  <br />
 		  
-
- <table border="1">
+	<table border="1">
 		
 		  <thead>
 		   <tr>
 		    <th></th>
 		    <th>Day 1</th>
 		 
-		 <th>Day 2</th>
+			<th>Day 2</th>
 		    <th>Day 3</th>
 		    <th>Day 4</th>
 		    <th>Day 5</th>
@@ -26,9 +27,9 @@
 			<th>Day A3 </th>
 			<th>Day A6</th>
 		   </tr>
-		  </thead>
 		 
-		 <thead>
+		 
+		
 		   <tr>
 		    <th>8:20-9:20 period 1</th>
 		    <th>Relegon Jesus 253</th>
@@ -44,9 +45,9 @@
 			<th>French Mr.Baguette 150</th>
 			<th>religon Jesus 354</th>
 		   </tr>
-	      </thead>
+	      
 		 
-		 <thead>
+		 
 		   <tr> 
 		    <th>9:25-10:25 period 2</th>
 			<th>science Mr. Einstein 251 </th>
@@ -62,9 +63,9 @@
 			<th>computer programing Mr.Gates 351</th>
 			<th>computer programing Mr.Gates 351</th>
 		   </tr>
-		  </thead>
+		 
 		  
-		  <thead>
+		 
 		   <tr>
 		    <th> 10:40- 11:40 Period 3</th>
 		    <th>french Mr.Baguette 350 </th>
@@ -80,9 +81,9 @@
 			<th></th>
 			<th>french Mr.Baguette 150 </th>
 		   </tr>
-		  </thead>
 		  
-		  <thead>
+		  
+		 
 		   <tr>
 		    <th>12:30-1:00 period 4 </th>
 			<th>computer programing Mr.Gates</th> 
@@ -93,14 +94,15 @@
 			<th>theater arts Mr.Griffen 333</th>
 			<th>Maclean Center Gest Speeker</th>
 			<th>histiory Mr.Cartier 155</th>
+			<th></th>
 			
 			<th></th>
 			<th></th>
 			<th></th>
 		   </tr>
-		  </thead>
+		 
           
-		  <thead>
+		  
 		   <tr>
 		    <th>1:05-2:05 period 5</th>
 		    <th>computer programing Mr.Gates 351</th>
@@ -117,9 +119,7 @@
 			<th>scienc Mr.Einstein 332</th>
 			
 		   </tr>
-		  </thead>
-		  
-		  <thead>
+		 
 		   <tr>
 		    <th>2:10-3:05 Period </th>
 			<th>engish Mr.Shakespeate 153</th>
@@ -135,6 +135,7 @@
 			<th>religon Jesus 219</th>
 			<th></th>
 		   </tr>
-		  </thead>
- </table>
+	  </thead>
+   </table>
+  </body>
 </html>
