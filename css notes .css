@@ -7,6 +7,7 @@ body{
 	 background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/de/7a/0ede7ac7265dc2e3d6c95a5c3de79ab3.jpg");
 	 background-repeat:no-repeat;
 	 background-position:center center;
+	 padding: 10px;
 }
 th:hover { 
     background-color: Cornsilk;
