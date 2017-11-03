@@ -5,7 +5,8 @@
    <title>html notes </title>
   </head>
        <body>
-          <h1> HTML NOTES </h1>
+        <h4>by Michael Di Fiore</h3>
+		<h1> HTML NOTES </h1> 
          
           <code>
              <ul>
@@ -13,7 +14,7 @@
 	          <li>you need to wright all of your html code inbetwen this &lthtml> &lt/html> for example</li><br />
               <li>&lth1>&lt/h1> this alows you to wright on the webcit but this will only be your titile</li> <br />
               <li>&ltp>&lt/p> will alow you to wright a paragraph</li><br />
-              <li>&lthead>&lt/head> this will not show up on the webcit but is still important becaues it tells the browser where to look for photos and othere texts this bis very important</li> <br />
+              <li>&lthead>&lt/head> this will not show up on the webcit but is still important becaues it tells the browser where to look for photos and othere texts</li> <br />
               <li>&lttitle> michaels nots for html &lt/title> this will be titile of your browser</li> <br />
               <li>&ltbr /> this coode is a line brake </li><br />
               <li>&ltdiv>&lt/div> this code puts somthing in a groop</li> <br />
@@ -29,7 +30,6 @@
 	          <li> this code will alow you add a video to the web page but you havr to add the hight and the with of the video also you need to add controls befor you wright &lt/video> for example </li><br />
 	          <li>&ltvideo src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"</li><br />
 		      <li>width="320" height="240" controls></li><br /> 
-              </video></li><br /> 
 	          <li>&lta href=""></a> this code alows you to add a webcite link </li> <br /> 
 	          <li> for example &lta href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a> </li><br /> 
 	          <li>&lttable> table will alow you to make a table </li><br /> 
@@ -50,20 +50,48 @@
 	   CSS NOTES
 	   </h1>
         <code>
-		  <ul>
-	      <li><p style="color: red;">&ltp style="color: red;">this code will alow you to chang the coller fo your code and you can swap out the collers</p></li><br />
+		 <ul>
+	      <li> style="color: red;">this code will alow you to chang the coller fo your code and you can swap out the collers</li><br />
 		  <li>If you'd like to add more than one style with inline styles, simply keep adding to the style attribute. Make sure to end the styles with a semicolon (;).</li><br />
           <li>for example &ltp style="color: red; font-size: 20px;font-family:Arial;"></li><br />
 	      <li>&ltlink href="style.css" type="text/css" rel="stylesheet"> this code will link the seporit css filetothe htmland make it easer for the html to read it </li><br />
 	      <li>if you are in sile shets p { font-family: Arial;} will target all the p statmnts and make there font Arial you can do this with othere tags like h1 you can alos change the coller and size of the p and h1 staments </li><br />
 	      <li>&lth3 class="title"> this code will go on your html fill. this helps linke the stile to the css fill then you would wright .title{ color:teal;} in your css fill</li><br />
           <li>The font-family property defines the typeface of an element.</li><br />
+		  <li>for example font-family:Garamond;</li><br />
           <li>font-size controls the size of text displayed.</li><br />
+		  <li>for example font-size: 18px;</li><br />
           <li>font-weight defines how thin or thick text is displayed.</li><br />
+		  <li>for example font-weight: bold;</li><br />
           <li>The text-align property places text in the left, right, or center of its parent container.</li><br />
-          <li>Text can have two different color attributes: color and background-color. color defines the color of the text, while background-color defines the color behind the text.</li><br />
+          <li>for example text-align: right;</li><br />
+		  <li>Text can have two different color attributes: color and background-color. color defines the color of the text, while background-color defines the color behind the text.</li><br />
+		  <li>for example  color: red;background-color: blue;</li><br />
           <li>CSS can make an element transparent with the opacity property.</li><br />
+		  <li>for example opacity: 0.5;</li><br />
           <li>CSS can also set the background of an element to an image with the background-image property.</li><br />
+		  <li>for example background-image: url("https://www.example.com/image.jpg");</li><br />
+		  
+		  <li>The box model comprises a set of properties used to create space around and between HTML elements.</li><br />
+          <li>The height and width of a content area can be set in pixels or percentage.</li><br />
+		  <li>for example height: 80px;width: 240px;</li><br />
+          <li>Borders surround the content area and padding of an element. The color, style, and thickness of a border can be set with CSS properties.</li><br />
+		  <li>for example border: 3px solid coral;  border-radius: 5px; will make the four coners curved </li><br />
+          <li>Padding is the space between the content area and the border. It can be set in pixels or percent.</li><br />
+		  <li>for example padding: 10px;</li><br />
+          <li>Margin is the amount of spacing outside of an element's border.</li><br />
+		  <li>for example margin: 20px; margin: 0 auto; auto will center the element</li><br /> 
+          <li>Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.</li><br />
+          <li>for example #img-one {margin-right: 20px;}#img-two {margin-left: 20px;}</li><br />
+		  <li>Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.</li><br />
+		  <li>margin: 0 auto horizontally centers an element inside of its parent content area, if it has a width.</li><br />
+          <li>The overflow property can be set to display, hide, or scroll, and dictates how HTML will render content that overflows its parent's content area.</li><br />
+          <li>for examplep {overflow: scroll; } you can change the scrol to visible and hedden</li><br />  
+		  <li>In the default box model, box dimensions are affected by border thickness and padding.</li><br />
+          <li>The box-sizing property controls the box model used by the browser.</li><br />
+          <li>The default value of the box-sizing property is content-box.</li><br />
+          <li>The value for the new box model is border-box.</li><br />
+          <li>The border-box model is not affected by border thickness or padding.</li><br />
 		 </ul>
 	    </code>
 	  
