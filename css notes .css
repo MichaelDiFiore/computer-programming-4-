@@ -1,5 +1,21 @@
-h3 {
-  color: blue;
+.title{
+	 color:black;
+	 text-align:center;
+	 font-family:Arial;
+}
+body{
+	 background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/de/7a/0ede7ac7265dc2e3d6c95a5c3de79ab3.jpg");
+	 background-repeat:no-repeat;
+	 background-position:center center;
+}
+th:hover { 
+    background-color: Cornsilk;
 }
 
+th,td {
+	outline: 3px solid black;
+}
 
+th{
+	font-family:Arial;
+}
