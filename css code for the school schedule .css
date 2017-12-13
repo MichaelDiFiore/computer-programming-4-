@@ -1,7 +1,13 @@
-.title{
-	 color:black;
-	 text-align:center;
-	 font-family:Arial;
+h1{
+	text-align:center;
+	width:320px;
+    padding:10px;
+    border:5px;
+    margin:0; 
+	color:black;
+	font-family:Arial;
+	background-color:gray;
+	
 }
 body{
 	 background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/de/7a/0ede7ac7265dc2e3d6c95a5c3de79ab3.jpg");
@@ -9,7 +15,7 @@ body{
 	 background-position:center center;
 	 padding: 10px;
 }
-th:hover { 
+td:hover { 
     background-color: Cornsilk;
 }
 
@@ -17,6 +23,8 @@ th,td {
 	outline: 3px solid black;
 }
 
-th{
+th,td{
 	font-family:Arial;
+	text-align: center;
+
 }
