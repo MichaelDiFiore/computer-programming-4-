@@ -23,7 +23,7 @@
 		    <th>Day 6</th>
 		    <th>Day 7</th>
 		    <th>Day 8</th>
-			<th></th>
+			<th class="no"></th>
 			<th>Day A1</th>
 			<th>Day A3 </th>
 			<th>Day A6</th>
@@ -39,8 +39,8 @@
 		    <td class="com">Computer Programming Mr.Gates </td>
 		    <td class="his">History Mr.Cartier </td>
 		    <td class="mat">Math Mr.Einstein</td>
-			<th></th>
-			<td></td>
+			<th class="no"></th>
+			<td class="no"></td>
 			<td class="fre">French Mr.Baguette </td>
 			<td class="rel" >Religion Jesus </td>
 		   </tr>
@@ -55,7 +55,7 @@
 			<td class="mat">Math Mr.Einstein </td>
 			<td class="rel">Religion Jesus </td>
 			<td class="fre">French Mr.Baguette </td>
-			<th></th>
+			<th class="no"></th>
 			<td class="com">Computer Programming Mr.Gates </td>
 			<td class="com">Computer Programming Mr.Gates </td>
 			<td class="com">Computer Programming Mr.Gates </td>
@@ -71,9 +71,9 @@
 			<td class="eng">English Mr.Shakespeare </td>
 			<td class="fre">French Mr.Baguette </td>
 			<td class="sci">Science Mr.Einstein </td>
-			<th></th>
+			<th class="no"></th>
 			<td class="fre">French Mr.Baguette </td>
-			<td></td>
+			<td class="no"></td>
 			<td class="fre">French Mr.Baguette </td>
 		   </tr>
 		  
@@ -87,10 +87,10 @@
 			<td class="the">Theater Arts Mr.Griffen </td>
 			<td class="mac">Maclean Center Guest Speaker</td>
 			<td class="his">History Mr.Cartier </td>
-			<th></th>
-			<td></td>
-			<td></td>
-			<td></td>
+			<th class="no"></th>
+			<td class="no"></td>
+			<td class="no"></td>
+			<td class="no"></td>
 		   </tr>
 		 
           <tr>
@@ -103,7 +103,7 @@
 			<td class="the">Theater arts Mr.Griffen </td>
 			<td class="eng">English Mr.Shakespeare </td>
 			<td class="gym">GYM Mr.Schwarzenegger </td>
-			<th></th>
+			<th class="no"></th>
 			<td class="sci">Science Mr.Einstein </td>
 			<td class="sci">Science Mr.Einstein </td>
 			<td class="sci">Science Mr.Einstein </td>
@@ -119,61 +119,77 @@
 			<td class="his">History Mr.Cartier </td>
 			<td class="mat">Math Mr.Einstein </td>
 			<td class="the">Theater Arts Mr.Griffen </td>
-			<th></th>
+			<th class="no"></th>
 			<td class="rel">Religion Jesus </td>
 			<td class="rel">Religion Jesus </td>
-			<td></td>
+			<td class="no"></td>
 		   </tr>
 	 
 	 </table>
 	<script>
 	
-	var expr = 'gym';
-switch (expr) {
-  case 'religion':
-    console.log('Religion Jesus');
+	function subjects(){
+	
+	var $(".class") = document.getElementById("something").value;
+						
+switch (class) {
+  case "rel":
+     $(".class")= "Religion Jesus" 
     break;
 	
-  case 'science':
-    console.log('Science Mr.Einstein');
+  case "sci":
+     $(".class")= "sci"
   break;
  
- case 'math':
-   console.log('Math Mr.Einstein');
+ case "mat":
+    $(".class")= "mat"
   break;
   
-  case 'history':
-   console.log('History Mr.Cartier');
+  case "his":
+   $(".class")= "his" 
 	break;  
 	
-  case'theater arts':
-   console.log('Theater Arts Mr.Griffen');
+  case "the":
+   $(".class")= "the"
     break;
  
- case 'english':
-   console.log('English Mr.Shakespeare');
+ case "eng":
+   $(".class")= "eng"
     break;
  
- case'computer programming':
-  console.log('Computer Programming Mr.Gates');
+ case "com":
+  $(".class")= "com"
    break;  
    
-  case 'speech':
-   console.log('Speech Mr.Yiannopoulos');  
+  case "spe":
+   $(".class")= "spe"  
     break;
 	
-  case 'gym':
-   console.log('GYM Mr.Schwarzenegger');  
+  case "gym":
+   $(".class")= "gym"  
     break;
 	
-  case 'Maclean Center':
-   console.log('Maclean Center Guest Speaker'); 
+  case "mac":
+   $(".class")= "mac"
+    break;
+	
+	 case "no":
+   $(".class")= "no"
     break;
   
-  default:
-    console.log('the classes your are searching do not exist ' + expr + '.');
+   case "nothing"
+    $(".class")('the classes your are searching do not exist ' + expr + '.');
+    break;
+	
+	var className = document.getElementsByClassName $(".class");
+	for (i = 0; i < className.length; i++){
+	
+	className[i].style.backgroundCouler = "blue"
+	
+	}
+	
+	}
    }
-	 
-	</script> 
+   </script> 
  </body>
 </html>
