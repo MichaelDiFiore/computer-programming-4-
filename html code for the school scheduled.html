@@ -5,10 +5,12 @@
 	  <title>My table </title>
      </head>
       <body>
-      	  <h1>School Schedule</h1>
-		  <div class="search">
-		    <input placeholder="search for class....">
-            <input type="submit">
+      	 
+		 <h1>School Schedule</h1>
+		  
+		  <input id="something" type="text" name="search" placeholder="Search..">
+           
+		   <input type="submit">
           </div>
 		  <br />
 		  <table>
@@ -130,62 +132,61 @@
 	
 	function subjects(){
 	
-	var $(".class") = document.getElementById("something").value;
+	var selectedClass = document.getElementById("something").value;
 						
 switch (class) {
   case "rel":
-     $(".class")= "Religion Jesus" 
+    selectedClass = "rel" 
     break;
 	
   case "sci":
-     $(".class")= "sci"
+     selectedClass = "sci"
   break;
  
  case "mat":
-    $(".class")= "mat"
+    selectedClass = "mat"
   break;
   
   case "his":
-   $(".class")= "his" 
+   selectedClass = "his" 
 	break;  
 	
   case "the":
-   $(".class")= "the"
+    selectedClass = "the"
     break;
  
  case "eng":
-   $(".class")= "eng"
+    selectedClass = "eng"
     break;
  
  case "com":
-  $(".class")= "com"
+  selectedClass = "com"
    break;  
    
   case "spe":
-   $(".class")= "spe"  
+  selectedClass = "spe"  
     break;
 	
   case "gym":
-   $(".class")= "gym"  
+  selectedClass = "gym"  
     break;
 	
   case "mac":
-   $(".class")= "mac"
+   selectedClass = "mac"
     break;
 	
 	 case "no":
-   $(".class")= "no"
+   selectedClass = "no"
     break;
   
    case "nothing"
-    $(".class")('the classes your are searching do not exist ' + expr + '.');
+    selectedClass('the classes your are searching do not exist ' + expr + '.');
     break;
 	
-	var className = document.getElementsByClassName $(".class");
-	for (i = 0; i < className.length; i++){
-	
+	var className = document.getElementsByClassName($(".class"));
+	){
+	for (i = 0; i < 5; i++)
 	className[i].style.backgroundCouler = "blue"
-	
 	}
 	
 	}
