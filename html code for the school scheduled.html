@@ -7,10 +7,10 @@
       <body>
       	 
 		 <h1>School Schedule</h1>
-		  
+		 
 		  <input id="something" type="text" name="search" placeholder="Search..">
-           
-		   <input type="submit">
+		  <input type="submit" onclick= "highlightingstyle()" value="search">
+   
           </div>
 		  <br />
 		  <table>
@@ -130,67 +130,66 @@
 	 </table>
 	<script>
 	
-	function subjects(){
+	function subject(){
 	
 	var selectedClass = document.getElementById("something").value;
 						
-switch (class) {
-  case "rel":
-    selectedClass = "rel" 
+switch (selectedClass) {
+  case "religion":
+    selectedClass = "religion" 
     break;
 	
-  case "sci":
-     selectedClass = "sci"
+  case 'science':
+     selectedClass = "science"
   break;
  
- case "mat":
-    selectedClass = "mat"
+ case 'math':
+    selectedClass = "math"
   break;
   
-  case "his":
-   selectedClass = "his" 
+  case 'history':
+   selectedClass = "history" 
 	break;  
 	
-  case "the":
-    selectedClass = "the"
+  case 'theater arts':
+    selectedClass = "theater arts"
     break;
  
- case "eng":
-    selectedClass = "eng"
+ case 'english':
+    selectedClass = "english"
     break;
  
- case "com":
-  selectedClass = "com"
+ case 'computer programming':
+  selectedClass = "computer programming"
    break;  
    
-  case "spe":
-  selectedClass = "spe"  
+  case 'Speech':
+  selectedClass = "speech"  
     break;
 	
-  case "gym":
+  case 'gym':
   selectedClass = "gym"  
     break;
 	
-  case "mac":
-   selectedClass = "mac"
+  case 'maclean Center':
+   selectedClass = "maclean Center"
     break;
 	
-	 case "no":
+	 case 'no':
    selectedClass = "no"
     break;
   
-   case "nothing"
+   case 'nothing'
     selectedClass('the classes your are searching do not exist ' + expr + '.');
     break;
+	}
+	var className = document.getElementsByClassName(selectedClass);
 	
-	var className = document.getElementsByClassName($(".class"));
-	){
-	for (i = 0; i < 5; i++)
+	for (i = 0; i <className.length; i++){
 	className[i].style.backgroundCouler = "blue"
 	}
-	
 	}
-   }
+   
    </script> 
  </body>
 </html>
