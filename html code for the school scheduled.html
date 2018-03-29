@@ -9,10 +9,9 @@
 		 <h1>School Schedule</h1>
 		 
 		  <input id="something" type="text" name="search" placeholder="Search..">
-		  <input type="submit" onclick= "highlightingstyle()" value="search">
+		  <input type="submit" onclick="subject()">
    
           </div>
-		  <br />
 		  <table>
 		   
 		   <tr>
@@ -136,60 +135,60 @@
 						
 switch (selectedClass) {
   case "religion":
-    selectedClass = "religion" 
+    selectedClass = "rel" 
     break;
 	
-  case 'science':
-     selectedClass = "science"
+  case "science":
+     selectedClass = "sci"
   break;
  
  case 'math':
-    selectedClass = "math"
+    selectedClass = "mat"
   break;
   
-  case 'history':
-   selectedClass = "history" 
+  case "history":
+   selectedClass = "his" 
 	break;  
 	
-  case 'theater arts':
-    selectedClass = "theater arts"
+  case "theater arts":
+    selectedClass = "the"
     break;
  
- case 'english':
-    selectedClass = "english"
+ case "english":
+    selectedClass = "eng"
     break;
  
- case 'computer programming':
-  selectedClass = "computer programming"
+ case "computer programming":
+  selectedClass = "com"
    break;  
    
   case 'Speech':
-  selectedClass = "speech"  
+  selectedClass = "spe"  
     break;
 	
-  case 'gym':
+  case "gym":
   selectedClass = "gym"  
     break;
 	
-  case 'maclean Center':
-   selectedClass = "maclean Center"
+  case "maclean Center":
+   selectedClass = "mac"
     break;
 	
-	 case 'no':
+	 case "no":
    selectedClass = "no"
     break;
   
-   case 'nothing'
-    selectedClass('the classes your are searching do not exist ' + expr + '.');
-    break;
-	}
-	var className = document.getElementsByClassName(selectedClass);
+  console.log('not a class, sorry )
 	
-	for (i = 0; i <className.length; i++){
-	className[i].style.backgroundCouler = "blue"
 	}
+	var saveit = document.getElementsByClassName(selectedClass);
+	
+	for (i = 0; i <saveit.length ; i++){
+	     className[i].style.backgroundCouler = "blue"
 	}
+	      }
    
-   </script> 
- </body>
+    </script> 
+ 
+  </body>
 </html>
